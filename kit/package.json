@@ -1,0 +1,15 @@
+{
+  "name": "kako-2d-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kako 2D Studio (中文版): code-rendered cinematic stick-figure story videos (2D canvas + Three.js), rendered frame-by-frame, Chinese voiceover and on-screen text supported",
+  "dependencies": {
+    "@fontsource/fredoka": "5.1.0",
+    "@fontsource/noto-sans-sc": "5.1.0",
+    "@fontsource/nunito": "5.1.0",
+    "@fontsource/playfair-display": "5.1.0",
+    "playwright": "1.56.0",
+    "three": "0.169.0"
+  }
+}
