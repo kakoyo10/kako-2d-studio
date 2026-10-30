@@ -31,11 +31,11 @@ git clone https://github.com/kakoyo10/kako-2d-studio.git "$HOME\.claude\skills\k
 装完重启 Claude。
 
 ## 使用
-1. 新建一个文件夹，把配音（`voiceover.wav`）放进去；有逐字一致的脚本就存成 `script.txt` 一起放进去，时间会对得更准。
+1. 新建一个文件夹，把配音（`voiceover.mp3`）放进去；有逐字一致的脚本就存成 `script.txt` 一起放进去，时间会对得更准。
 2. 在 Claude 桌面版的 Code 标签里打开这个文件夹（或在这个文件夹里运行 `claude`）。模型建议 Opus 5.5，思考强度 High 或 Extra High。
 3. 输入：
 ```text
-/kako-2d-studio 用文件夹里的配音 voiceover.wav 和脚本 script.txt 做一支 2D 动画。配音是中文。
+/kako-2d-studio 用文件夹里的配音 voiceover.mp3 和脚本 script.txt 做一支 2D 动画。配音是中文。
 ```
 4. 依次回答 Claude 的问题（画面比例、分辨率、声音），看配色对比图选一种，看 30 秒预览，确认后渲染整片。
 5. 成片在这个文件夹的 `kako-2d-studio/projects/<名字>/out/` 里。
